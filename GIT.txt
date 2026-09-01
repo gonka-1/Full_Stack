@@ -1,0 +1,29 @@
+* Trabajando con git:
+
+-Visualizar credeciales:
+$ git config --global --list
+
+-Asignar el nombre de usuario en las credenciales:
+$ git config --global user.name "Jose Rojo"
+
+-Asignar correo del usuario a las credenciales:
+$ git config --global user.email "jos.rojo@duocuc.cl"
+
+-Añadimos todos los cambios del archivo
+git add .
+
+-Añadimos solo un archivo especifico
+git add txt1
+
+-Revisar el estado del git
+git status
+
+D.T.O.S (Denegación de Servicio Distribuido): Proviene de múltiples fuentes al mismo tiempo.
+
+D.O.S(Denegación de Servicio): Proviene de una sola fuente o computadora. Es más fácil de bloquear con un firewall porque solo requiere cortar esa única dirección IP.
+
+-Sincronizo los cambios que están subidos
+git fetch
+
+-Trae los cambios que están subidos
+git pull
