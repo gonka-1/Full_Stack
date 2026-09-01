@@ -27,3 +27,4 @@ git fetch
 
 -Trae los cambios que están subidos
 git pull
+git pull origin main --rebase
